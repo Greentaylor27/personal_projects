@@ -4,8 +4,17 @@ import random
 def Trisky():
 
     Question_1 = {
-        "Option_1" : "Is your Commander mono-coloured?",
-        "Option_2" : "Is your Commander multi-coloured?"
+        "Option_1" : "Is your Commander colour identity mono-coloured?",
+        "Option_2" : "Is your Commander colour identity multi-coloured?",
+        "Option_3" : "Is your Commander colour identity colourless?"
+    }
+    
+    Question_2a = {
+        "Option_1" : "Is your Commander White?",
+        "Option_2" : "Is your Commander Blue?",
+        "Option_3" : "Is your Commander Black?",
+        "Option_4" : "Is your Commander Red?",
+        "Option_5" : "Is your Commander Green?"
     }
 
     Random_question = random.choice(list(Question_1.values()))
